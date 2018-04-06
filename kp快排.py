@@ -4,6 +4,9 @@
 # 就把这个数与基数交换，然后把左数右数的左边和右边分别作为一个列表递归调用本函数。
 # 为了给递归一个返回条件，定义当左数下标大于右数下标时，返回。
 # 刚开始想直接传list，发现不太好，还是传数字吧
+
+#!!!跑lintcode容易级排序超时，吓得我反手就是一个sorted
+#sorted不行，虽然print一下出来的数组是排好序的原数组并且return的也是排好序的原数组，但输出却是没有排序的，有点惊奇
 import random
 def kp(list1,l='1',r='1'):
     if l=='1':
@@ -16,17 +19,6 @@ def kp(list1,l='1',r='1'):
         return
     base=list1[l]
     while True:
-        # if list1[r]>=base:
-        #     r=r-1
-        # else:
-        #     if list1[l]<=base:
-        #         l=l+1
-        #     else:
-        #         t=list1[r]
-        #         list1[r]=list1[l]
-        #         list1[l]=t
-        #         r=r-1
-        # 嵌套的不够优秀
         while list1[r]>=base and r>l:
             r=r-1
         while list1[l]<=base and r>l:
@@ -44,7 +36,7 @@ def kp(list1,l='1',r='1'):
     kp(list1,cl,r)
     kp(list1,r+1,cr)
     return list1
-l=[random.randint(-100,100) for i in range(0,random.randint(5,30))]
 
+l=[random.randint(-100,100) for i in range(0,random.randint(5,30))]
 print("原列表：",l)
 print("排序后：",kp(l))
