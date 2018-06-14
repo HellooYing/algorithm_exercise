@@ -36,4 +36,4 @@ def bag_problem(weight,matrix=init_matrix(70,10),jewel=jewel_create(10)):
     for k in jewel:
         print('价值:',k[0],'重量:',k[1],'性价比：%.1f' % (k[0]/k[1]))
     print('宝石数：',j,'总重量：',w,'总价值：',matrix[j][w])
-bag_problem(40)
+bag_problem(50,init_matrix(70,10),[[12,5],[30,15],[44,25],[46,27],[50,30]])
