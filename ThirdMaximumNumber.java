@@ -10,7 +10,6 @@ public class ThirdMaximumNumber {
         int count=0;
         int wtf=0;
         for(int num:nums){
-           // System.out.print(Arrays.toString(max3));
             for(int j=0;j<3;j++){
                 if(j==0){
                     if(max3[0]>num) break;
