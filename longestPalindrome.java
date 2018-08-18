@@ -1,17 +1,19 @@
 
 public class longestPalindrome {
     public static void main(String[] args) throws Exception {
-        String s = "20aa0aaaa";
+        String s = "aaaa";
         System.out.println(new longestPalindrome().answer(s));
     }
 
     public String answer(String s) {
         int l=s.length();
         int i;
-        String result,tmp;
+        String result="";
+        String tmp;
         if(l==0||l==1)
             return s;
-        if(s.charAt(1)==s.charAt(0)) result=s.charAt(0)+s.charAt(1);
+        if(s.charAt(1)==s.charAt(0)) result=s.substring(0,2);
+        else result=s.substring(0,1);
         if(l>2){
             for(i=2;i<l;i++){
                 if(s.charAt(i)==s.charAt(i-1)){
@@ -25,20 +27,20 @@ public class longestPalindrome {
                         result=tmp;
                 }
             }
-            return result;
         }
+        return result;
     }
     public String getPalindrome(String s, int j, int i){
         int l=s.length();
         int ii=i+1;
         int jj=j-1;
-        int tmp=s.charAt(j)+s.charAt(i);
-        while(ii+1<l&&jj-1>=0){
-            if(s.charAt(jj)==s.charAt(ii)) tmp=s.charAt(jj)+tmp+s.charAt(ii);
+        StringBuffer tmp = new StringBuffer(s.substring(j,i+1));
+        while(ii<l&&jj>=0){
+            if(s.charAt(jj)==s.charAt(ii)) tmp=tmp.insert(0, s.charAt(jj)).append(s.charAt(ii));
             else break;
             ii=ii+1;
             jj=jj-1;
         }
-        return tmp;
+        return tmp.toString();
     }
 }
