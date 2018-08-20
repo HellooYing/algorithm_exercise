@@ -1,4 +1,3 @@
-
 public class longestPalindrome {
     public static void main(String[] args) throws Exception {
         String s = "aaaa";
