@@ -13,6 +13,7 @@ public class convert {
         if(s.length()==0) {
             return "";
         }
+        
         String z[][] = new String[col][row+1];
         int i,j;
         String result="";
