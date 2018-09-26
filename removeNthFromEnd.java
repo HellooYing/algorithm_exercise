@@ -36,9 +36,30 @@ public class removeNthFromEnd {
         list.add(3);
         list.add(4);
         list.add(5);
-        System.out.println(list.answer(list.head, 2).val);
+        System.out.println(list.answer(list.head, 4).next.val);
     }
     public ListNode answer(ListNode head, int n){
+        ListNode a,b;
+        b=null;
+        a=head;
+        int i=1;
+        while(a.next!=null){
+            if(b!=null) b=b.next;
+            if(i==n) b=head;
+            a=a.next;
+            i++;
+        }
+        if(b==null) {
+            if(head.next==null){
+               head=null; 
+            }
+            else{
+                head=head.next;
+            }
+        }
+        else{
+            delete(b);
+        }
         return head;
     }
 }
