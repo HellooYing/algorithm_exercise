@@ -1,7 +1,7 @@
 import java.util.*;
-public class test {
+public class atest {
     public static void main(String[] args) throws Exception {
-        System.out.println(new test().answer(1));
+        System.out.println(new atest().answer(10));
     }
     public int answer(int a){
         return 0;
