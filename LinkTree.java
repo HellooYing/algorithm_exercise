@@ -1,45 +1,46 @@
 import java.util.*;
-public class BinaryTree {
-    static TreeNode root=null;
-    class TreeNode {
+public class LinkTree {
+    static TreeLinkNode root=null;
+    class TreeLinkNode {
         int val = 0;
-        TreeNode left = null;
-        TreeNode right = null;
+        TreeLinkNode left = null;
+        TreeLinkNode right = null;
+        TreeLinkNode next = null;
     
-        TreeNode(int val) {
+        TreeLinkNode(int val) {
             this.val = val;
         }
     }
 
     public void add(int x){
-        TreeNode newNode=new TreeNode(x);
+        TreeLinkNode newNode=new TreeLinkNode(x);
         if(root==null){
             root = newNode;
             return;
         }
-        TreeNode tmp=find(root);
+        TreeLinkNode tmp=find(root);
         tmp.val=x;
     }
 
-    public void prePrint(TreeNode node){
+    public void prePrint(TreeLinkNode node){
         System.out.print(node.val);
         if(node.left!=null) prePrint(node.left);
         if(node.right!=null) prePrint(node.right);
     }
 
-    public void midPrint(TreeNode node){
+    public void midPrint(TreeLinkNode node){
         if(node.left!=null) midPrint(node.left);
         System.out.print(node.val);
         if(node.right!=null) midPrint(node.right);
     }
 
-    public void backPrint(TreeNode node){
+    public void backPrint(TreeLinkNode node){
         if(node.left!=null) backPrint(node.left);
         if(node.right!=null) backPrint(node.right);
         System.out.print(node.val);
     }
 
-    public int height(TreeNode node){
+    public int height(TreeLinkNode node){
         int n=1;
         int l=0,r=0;
         if(node.left!=null) l=height(node.left,n);
@@ -49,7 +50,7 @@ public class BinaryTree {
         return n;
     }
 
-    public int height(TreeNode node, int n){
+    public int height(TreeLinkNode node, int n){
         n++;
         int l=0,r=0;
         if(node.left!=null) l=height(node.left,n);
@@ -59,13 +60,13 @@ public class BinaryTree {
         return n;
     }
 
-    public TreeNode find(TreeNode node){
-        TreeNode r=null;
-        if(node.left==null) {node.left=new TreeNode(0);r=node.left;}
-        else if(node.right==null) {node.right=new TreeNode(0);r=node.right;}
+    public TreeLinkNode find(TreeLinkNode node){
+        TreeLinkNode r=null;
+        if(node.left==null) {node.left=new TreeLinkNode(0);r=node.left;node.left.next=node;}
+        else if(node.right==null) {node.right=new TreeLinkNode(0);r=node.right;node.right.next=node;}
         else {
             int h=1,h1=1;
-            TreeNode t=node;
+            TreeLinkNode t=node;
             while(t.right!=null){
                 t=t.right;
                 h1++;
@@ -75,7 +76,7 @@ public class BinaryTree {
                 t=t.left;
                 h++;
             }
-            if(h==h1){t.left=new TreeNode(0);r=t.left;}
+            if(h==h1){t.left=new TreeLinkNode(0);r=t.left;t.left.next=t;}
             else if(node.left.right!=null){
                 int h2=2;
                 t=node.left;
@@ -86,19 +87,19 @@ public class BinaryTree {
                 if(h2==h) r=find(node.right);
                 else if(h2==h-1) r=find(node.left);
             }
-            else {node.left.right=new TreeNode(0);r=node.left.right;}
+            else {node.left.right=new TreeLinkNode(0);r=node.left.right;node.left.right.next=node.left;}
         }
         return r;
     }
 
-    public void fcPrint_dg(TreeNode node,ArrayList<ArrayList<Integer>> r,int h){
+    public void fcPrint_dg(TreeLinkNode node,ArrayList<ArrayList<Integer>> r,int h){
         r.get(h).add(node.val);
         h++;
         if(node.left!=null) fcPrint_dg(node.left,r,h);
         if(node.right!=null) fcPrint_dg(node.right,r,h);
     }
 
-    public ArrayList<Integer> fcPrint(TreeNode root){
+    public ArrayList<Integer> fcPrint(TreeLinkNode root){
         ArrayList<Integer> result=new ArrayList<Integer>();
         if(root==null) return result;
         ArrayList<ArrayList<Integer>> r=new ArrayList<ArrayList<Integer>>();
@@ -111,7 +112,7 @@ public class BinaryTree {
     }
 
     public static void main(String[] args) throws Exception {
-        BinaryTree tree=new BinaryTree();
+        LinkTree tree=new LinkTree();
         tree.add(0);
         tree.add(1);
         tree.add(2);
