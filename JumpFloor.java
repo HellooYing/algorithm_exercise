@@ -2,7 +2,7 @@ import java.util.*;
 
 public class JumpFloor {
     public static void main(String[] args) throws Exception {
-        System.out.println(new JumpFloor().answer(2));
+        System.out.println(new JumpFloor().answer(1));
     }
     static int n=0;
     void dg(int target){
