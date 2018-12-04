@@ -26,7 +26,6 @@ public class reOrderArray {
     }
 
     public void answer(int[] array){
-        int o=array.length-1;
         int j=0;
         for(int i=0;i<array.length;i++){
             for(int e:array) System.out.print(e);
