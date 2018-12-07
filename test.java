@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class test {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -20,6 +20,7 @@ public class Main {
 
     static void after1(int n, int L, int[] a, int[] v) {
         for (int i = 0; i < n; i++) {
+
             a[i] = a[i] + v[i];
             if (a[i] == 0) {
                 v[i] = 1;
@@ -27,12 +28,13 @@ public class Main {
                 v[i] = -1;
             }
         }
-        int j;
         for (int i = 0; i < n - 1; i++) {
-            j = i + 1;
-            if (a[i] == a[j]) {
-                v[i] *= -1;
-                v[j] *= -1;
+            for (int j = i + 1; j < n; j++) {
+                if (a[i] == a[j]) {
+                    v[i] *= -1;
+                    v[j] *= -1;
+                    break;
+                }
             }
         }
     }
