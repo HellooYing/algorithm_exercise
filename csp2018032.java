@@ -10,19 +10,19 @@ public class csp2018032 {
         Main f1 = new Main();
         test f2 = new test();
 
-        for (int wc = 0; wc < 1000; wc++) {
-            l = random.nextInt(10) + 10;
+        for (int wc = 0; wc < 10; wc++) {
+            l = random.nextInt(98) + 2;
             if (l % 2 == 1)
                 l++;
-            n = random.nextInt((int) (l - 8) / 2) + 2;
-            t = random.nextInt(50) + 1;
+            n = random.nextInt(9) + 1;
+            t = random.nextInt(9) + 1;
             a = new int[n];
             b = new int[n]; 
             c = new int[n];
             int flag;
             for (int i = 0; i < n; i++) {
                 flag = 1;
-                a[i] = random.nextInt((int) l / 2 - 3) + 3;
+                a[i] = random.nextInt((int)l/2-1) ;
                 a[i] = a[i] * 2;
                 for (int j = 0; j < i; j++) {
                     if (a[j] == a[i]) {
@@ -39,7 +39,18 @@ public class csp2018032 {
                 b[i] = a[i];
                 c[i] = a[i];
             }
-                
+            System.out.println();
+            System.out.print("l:");
+            System.out.print(l);
+            System.out.print(" n:");
+            System.out.print(n);
+            System.out.print(" t:");
+            System.out.print(t);
+            System.out.println(" ");
+            for (int i : a) { 
+                System.out.print(i);
+                System.out.print(" ");
+            }
             f1.answer(n, l, t, a);
             f2.answer(n, l, t, b);
             if (!Arrays.equals(a, b)) {
@@ -68,8 +79,33 @@ public class csp2018032 {
                 }
                 break;
             }
-            else{
-                System.out.println(wc);System.out.print("true");
+            // else if(wc%30==0){
+            //     System.out.println();
+            //     System.out.print("l:");
+            //     System.out.print(l);
+            //     System.out.print(" n:");
+            //     System.out.print(n);
+            //     System.out.print(" t:");
+            //     System.out.print(t);
+            //     System.out.println(" ");
+            //     for (int i : a) { 
+            //         System.out.print(i);
+            //         System.out.print(" ");
+            //     }
+            //     System.out.println(" ");
+            //     for (int i : b) {
+            //         System.out.print(i);
+            //         System.out.print(" ");
+            //     }
+            //     System.out.println(" ");
+            //     for (int i : c) {
+            //         System.out.print(i);
+            //         System.out.print(" ");
+            //     }
+            // }
+            else if(wc==9){
+                System.out.println();
+                System.out.println("all true");
             }
         }
 
