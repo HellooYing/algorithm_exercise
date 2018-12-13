@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class csp2017032 {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in); 
         int n= sc.nextInt();
@@ -13,7 +13,7 @@ public class Main {
             i++;
         }
         sc.close();
-        int[] r=new Main().answer(n,tz);
+        int[] r=new csp2017032().answer(n,tz);
         for(i=0;i<r.length;i++){
             System.out.print(r[i]);
             System.out.print(" ");
