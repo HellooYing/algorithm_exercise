@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class csp2016042 {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in); 
         int[][] r=new int[15][10];
@@ -29,7 +29,7 @@ public class Main {
         }
         int left=sc.nextInt();
         sc.close();
-        new Main().answer(r,fk,left);
+        new csp2016042().answer(r,fk,left);
         for(i=0;i<15;i++){
             for(int j=0;j<10;j++){
                 System.out.print(r[i][j]);
