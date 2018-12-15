@@ -7,7 +7,7 @@ public class csp2018093 {
         int m= sc.nextInt();
         sc.nextLine();
 
-        String t;
+        String t="";
         int pointnum;
         List<String> fa=new ArrayList<String>();
         String[] c;
@@ -43,8 +43,8 @@ public class csp2018093 {
         for(int i=0;i<m;i++){
             search.add(sc.nextLine());
         }
-
         sc.close();
+
 
         for(int i=0;i<search.size();i++){
             rr=new ArrayList<Integer>();
@@ -61,7 +61,29 @@ public class csp2018093 {
                 }
             }//查的是id
             else if(search.get(i).split("#").length>1&&(search.get(i).split("#")[0].split(" ").length>1||search.get(i).split("#")[1].split(" ").length>1)){
-            System.out.print(search.get(i));
+            String[] s=mysplit(search.get(i));
+                for(int j=0;j<elem.size();j++){
+                    if(elem.get(j).length<s.length) continue;
+                    if(!elem.get(j)[elem.get(j).length-1].equals(s[s.length-1])) continue;
+                    c=elem.get(j);
+                    int flag=0;
+                    int q=0;
+                    String tt="";
+                    String ttt="";
+                    String tttt="";
+                    for(int k=0;k<s.length;k++){
+                        for(;q+k<c.length;q++){
+                            
+                            t=c[c.length-1-k-q];
+                            tt=s[s.length-1-k];
+                            if(haveID(t)){tttt=t.split("#")[0];tttt=tttt.substring(0,tttt.length()-1);}
+                            if(haveID(tt)){ttt=s[s.length-1-k].split("#")[0];ttt=ttt.substring(0,ttt.length()-1);}
+                            if(t.equals(tt)||t.equals(ttt)||tttt.equals(tt)||tttt.equals(ttt)) {break;}
+                        }
+                        if(!t.equals(tt)&&!t.equals(ttt)&&!tttt.equals(tt)&&!tttt.equals(ttt)) flag=1;
+                    }
+                    if(flag==0) rr.add(j+1);
+                }
                 
             }//后代带id
             else if(haveID(search.get(i))){
@@ -79,11 +101,16 @@ public class csp2018093 {
                     if(elem.get(j).length<s.length) continue;
                     c=elem.get(j);
                     int flag=0;
+                    int q=0;
+                    String tt="";
                     for(int k=0;k<s.length;k++){
-                        t=c[c.length-1-k];
-                        if(haveID(t)){t=c[c.length-1-k].split("#")[0];t=t.substring(0,t.length()-1);}
-                        String tt=s[s.length-1-k];
-                        if(haveID(tt)){tt=s[s.length-1-k].split("#")[0];tt=tt.substring(0,t.length()-1);}
+                        for(;q+k<c.length;q++){
+                            t=c[c.length-1-k-q];
+                            if(haveID(t)){t=c[c.length-1-k].split("#")[0];t=t.substring(0,t.length()-1);}
+                            tt=s[s.length-1-k];
+                            if(haveID(tt)){tt=s[s.length-1-k].split("#")[0];tt=tt.substring(0,tt.length()-1);}
+                            if(t.equals(tt)) break;
+                        }
                         if(!t.equals(tt)) flag=1;
                     }
                     if(flag==0) rr.add(j+1);
@@ -129,5 +156,24 @@ public class csp2018093 {
             if(s.charAt(i)=='#') return true;
         }
         return false;
+    }
+    static String[] mysplit(String s){
+        int l=0;
+        for(int i=0;i<s.length()-1;i++){
+            if(s.charAt(i)==' '&&s.charAt(i+1)!='#') l++;
+        }
+        String[] r=new String[l+1];
+        int j=0;
+        int n=0;
+        int i;
+        for(i=0;i<s.length()-1;i++){
+            if(s.charAt(i)==' '&&s.charAt(i+1)!='#'){
+                r[n]=s.substring(j,i);
+                j=i+1;
+                n++;
+            }
+        }
+        r[n]=s.substring(j,i+1);
+        return r;
     }
 }
