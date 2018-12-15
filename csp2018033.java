@@ -19,11 +19,15 @@ public class csp2018033 {
         for(int i=0;i<n;i++){
             t=sc.nextLine().substring(1);
             name[i]=t.split(" ")[1];
-            rule.add(t.split(" ")[0].split("/"));
+            String ss=t.split(" ")[0];
+            if(ss.charAt(ss.length()-1)=='/') ss=ss.substring(0,ss.length()-1);
+            rule.add(ss.split("/"));
         }
 
         for(int i=0;i<m;i++){
-            search.add(sc.nextLine().substring(1).split("/"));
+            t=sc.nextLine().substring(1);
+            if(t.charAt(t.length()-1)=='/') t=t.substring(0,t.length()-1);
+            search.add(t.split("/"));
         }
         sc.close();
         for(int i=0;i<m;i++){
