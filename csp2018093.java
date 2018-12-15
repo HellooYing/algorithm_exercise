@@ -15,7 +15,6 @@ public class csp2018093 {
         List<String> search=new ArrayList<String>();
         List<List<Integer>> r=new ArrayList<List<Integer>>();
         List<Integer> rr;
-
         for(int i=0;i<n;i++){
             t=sc.nextLine();
             if(fa.size()==0&&!(t.charAt(0)=='.')) fa.add(t);
@@ -24,13 +23,13 @@ public class csp2018093 {
                     if(!(t.charAt(pointnum)=='.')) break;
                 }
                 if((int)(pointnum/2)+1>fa.size()){
-                    fa.add(t.substring(pointnum));
+                    fa.add(dxx(t.substring(pointnum)));
                 }
                 else{
                     while((int)(pointnum/2)+1<=fa.size()){
                         fa.remove(fa.size()-1);
                     }
-                    fa.add(t.substring(pointnum));
+                    fa.add(dxx(t.substring(pointnum)));
                 }
             }
             c=new String[fa.size()];
@@ -41,11 +40,9 @@ public class csp2018093 {
         }
 
         for(int i=0;i<m;i++){
-            search.add(sc.nextLine());
+            search.add(dxx(sc.nextLine()));
         }
         sc.close();
-
-
         for(int i=0;i<search.size();i++){
             rr=new ArrayList<Integer>();
             if(search.get(i).charAt(0)=='#'){
@@ -175,5 +172,21 @@ public class csp2018093 {
         }
         r[n]=s.substring(j,i+1);
         return r;
+    }
+    static String dxx(String s){
+        StringBuilder ss=new StringBuilder(s);
+        if(!haveID(s)){
+            for(int j=0;j<s.length();j++){
+                if((int)s.charAt(j)<97&&(int)s.charAt(j)>64) ss.replace(j,j+1,String.valueOf(Character.toLowerCase(s.charAt(j))));
+            }
+        }
+        else{
+            int j=0;
+            while(s.charAt(j)!='#'){
+                if((int)s.charAt(j)<97&&(int)s.charAt(j)>64) ss.replace(j,j+1,String.valueOf(Character.toLowerCase(s.charAt(j))));
+                j++;
+            }
+        }
+        return ss.toString();
     }
 }
