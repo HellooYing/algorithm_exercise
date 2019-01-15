@@ -18,6 +18,7 @@ public class FindPath {
     }
 
     public ArrayList<ArrayList<Integer>> answer(TreeNode root,int target){
+        if(target==0) return r;
         ArrayList<Integer> inr=new ArrayList<Integer>();
         inr.add(root.val);
         if(root.left==null&&root.right==null){
