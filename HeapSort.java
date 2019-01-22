@@ -2,7 +2,7 @@ import java.util.*;
 
 public class HeapSort {
     public static void main(String[] args) throws Exception {
-        int[] a={1,41,2,31,5,9,2,300,21,1,15,100};
+        int[] a={1,41,2,1,1,1,1,0,31,5,9,2,300,21,1,15,100};
         new HeapSort().answer(a);
         System.out.println(Arrays.toString(a));
     }
