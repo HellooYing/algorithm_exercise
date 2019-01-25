@@ -2,8 +2,8 @@ import java.util.*;
 
 public class maxProfit {
     public static void main(String[] args) throws Exception {
-        int[] prices={7,1,5,3,6,4};
-        System.out.println(new maxProfit().answer(prices));
+        int[] prices={8,6,4,3,3,2,3,5,8,3,8,2,6};
+        System.out.println(new maxProfit().answer3(prices));
     }
 
     public int answer(int[] prices){
@@ -29,5 +29,42 @@ public class maxProfit {
             if(a[i]>a[i-1]) return false;
         }
         return true;
+    }
+    public int answer2(int[] p){
+        if(p.length<=1||jx(p)) return 0;
+        int[] z=new int[p.length-1];
+        int r=0;
+        for(int i=0;i<z.length;i++){
+            z[i]=p[i+1]-p[i];
+            if(z[i]>0) r=r+z[i];
+        }
+        return r;
+    }
+    public int answer3(int[] p){
+        if(p.length<=1||jx(p)) return 0;
+        int[] have=new int[p.length];
+        int[] nohave=new int[p.length];
+        int[] cool=new int[p.length];
+        have[0]=-p[0];
+        nohave[0]=0;
+        cool[0]=0;
+        for(int i=1;i<p.length;i++){
+            have[i]=have(i,p,have,cool);
+            nohave[i]=nohave(i,p,nohave,have);
+            cool[i]=cool(i,nohave);
+        }
+        if(cool[p.length-1]>nohave[p.length-1]) return cool[p.length-1];
+        else return nohave[p.length-1];
+    }
+    int have(int i,int[] p,int[] have,int[] cool){
+        if(have[i-1]>cool[i-1]-p[i]) return have[i-1];
+        else return cool[i-1]-p[i];
+    }
+    int nohave(int i,int[] p,int[] nohave,int[] have){
+        if(nohave[i-1]>have[i-1]+p[i]) return nohave[i-1];
+        else return have[i-1]+p[i];
+    }
+    int cool(int i,int[] nohave){
+        return nohave[i-1];
     }
 }
