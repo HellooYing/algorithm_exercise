@@ -12,12 +12,12 @@ public class nk201903142 {
             k= sc.nextInt();
             m[i]=a.f(x,y,k);
         } 
-        sc.close();
         for(int i:m) System.out.println(i);
+        sc.close();
     }
     public int f(int x,int y,int k){
-        if(Math.max(Math.abs(x),Math.abs(y))<k){
-            if(k-Math.max(Math.abs(x),Math.abs(y))%2==1) return k-Math.abs(Math.abs(x)-Math.abs(y))-2;
+        if(Math.max(Math.abs(x),Math.abs(y))<=k){
+            if((k-Math.max(Math.abs(x),Math.abs(y)))%2==1) return k-Math.abs(Math.abs(x)-Math.abs(y))-2;
             else return k-Math.abs(Math.abs(x)-Math.abs(y));
         }
         else return -1;
