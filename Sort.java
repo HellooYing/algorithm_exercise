@@ -2,14 +2,205 @@ import java.util.*;
 
 public class Sort {
     public static void main(String[] args) throws Exception {
-        int[] arr={10,2,103,-24,-6,1,-10,10,25,234,654,-158,107,6,5,-4,0};
+        int[] arr={10,43,-213,123,-9,12,657,-9,67,34,-1,0,10,-43,28,136,765,-345,-96,0};
         //new Sort().quickSort(arr,0,arr.length-1);
         //new Sort().mergeSort(arr, 0, arr.length-1);
-        new Sort().shellSort(arr, (int)Math.floor(arr.length/3));
+        //new Sort().shellSort(arr, (int)Math.floor(arr.length/3));
         //new Sort().heapSort(arr);
+        //new Sort().bucketSort(arr, 10, -200, 800);
+        new Sort().radixSort(arr, 3);
         System.out.println(Arrays.toString(arr));
-        System.out.println("[-158, -24, -10, -6, -4, 0, 1, 2, 5, 6, 10, 10, 25, 103, 107, 234, 654]");
+        System.out.println("[-345, -213, -96, -43, -9, -9, -1, 0, 0, 10, 10, 12, 28, 34, 43, 67, 123, 136, 657, 765]");
     }
+
+    static public void radixSort(int[] a,int nlength){
+        //7.5min good
+        List<List<Integer>> b=new ArrayList<List<Integer>>();
+        List<Integer> c;
+        for(int i=0;i<19;i++){
+            c=new ArrayList<Integer>();
+            b.add(c);
+        }
+        for(int i=0;i<nlength;i++){
+            for(int j=0;j<19;j++){
+                c=b.get(j);
+                c.clear();
+            }
+            for(int j=0;j<a.length;j++){
+                c=b.get(getn(a[j], i+1)+9);
+                c.add(a[j]);
+            }
+            int d=0;
+            for(int j=0;j<19;j++){
+                c=b.get(j);
+                for(int k=0;k<c.size();k++){
+                    a[d]=c.get(k);
+                    d++;
+                }
+            }
+        }
+    }
+    static private int getn(int num,int position){
+        int a=1;
+        for(int i=1;i<position;i++) a*=10;
+        num=(int)Math.floor(num/a);
+        num=num%10;
+        return num;
+    }
+
+
+
+
+
+
+
+
+
+    
+    // static public void radixSort(int[] a,int nlength){
+    //     //43min disaster
+    //     List<List<Integer>> b=new ArrayList<List<Integer>>();
+    //     List<Integer> c;
+    //     for(int i=0;i<19;i++){
+    //         c=new ArrayList<Integer>();
+    //         b.add(c);
+    //     }
+    //     for(int i=0;i<nlength;i++){
+    //         for(int j=0;j<19;j++){
+    //             b.get(j).clear();
+    //         }
+    //         for(int j=0;j<a.length;j++){
+    //             c=b.get(getn(a[j],i+1)+10);
+    //             c.add(a[j]);
+    //         }
+    //         int d=0;
+    //         for(int j=0;j<b.size();j++){
+    //             c=b.get(j);
+    //             for(int k=0;k<c.size();k++){
+    //                 a[d]=c.get(k);
+    //                 //System.out.println(Arrays.toString(a));
+    //                 d++;
+    //             }
+    //         }
+    //         System.out.println(b);
+    //     }        
+    // }
+
+    // static private int getn(int i,int position){
+    //     int a=1;
+    //     for(int j=0;j<position-1;j++){
+    //         a*=10;
+    //     }
+    //     int r=(int)(i/a)%10;
+    //     return r;
+    // }
+
+
+
+
+
+    static public void bucketSort(int[] a,int n,int low,int high){
+        //12min
+        int step=(int)Math.floor((high-low)/n);
+        List<List<Integer>> buckets=new ArrayList<List<Integer>>();
+        List<Integer> bucket;
+        for(int i=0;i<n;i++){
+            bucket=new ArrayList<Integer>();
+            buckets.add(bucket);
+        }
+        for(int i=0;i<a.length;i++){
+            for(int j=1;j<=n;j++){
+                if(a[i]<low+j*step){
+                    bucket=buckets.get(j-1);
+                    Insert(bucket,a[i]);
+                    break;
+                }
+            }
+        }
+        int k=0;
+        for(int i=0;i<buckets.size();i++){
+            bucket=buckets.get(i);
+            for(int j=0;j<bucket.size();j++){
+                a[k]=bucket.get(j);
+                k++;
+            }
+        }
+    }
+    private static void Insert(List<Integer> bucket,int i){
+        int l=bucket.size();
+        if(l==0){
+            bucket.add(i);
+            return;
+        }
+        for(int j=0;j<l;j++){
+            if(bucket.get(j)>i){
+                bucket.add(j,i);
+                break;
+            }
+        }
+        if(l==bucket.size()){
+            bucket.add(i);
+        }
+    }
+
+
+
+
+    //bucketSort assume data range -200~800, bucket num 10
+
+    // static private void bucketSort(int[] a,int n,int low,int high){
+    //     //21.5min with bug(without 2 break)
+    //     int step=(int)Math.floor((high-low)/n);
+    //     List<List<Integer>> buckets=new ArrayList<List<Integer>>();
+    //     List<Integer> bucket;
+    //     for(int i=0;i<n;i++){
+    //         bucket=new ArrayList<Integer>();
+    //         buckets.add(bucket);
+    //     }
+    //     for(int i=0;i<a.length;i++){
+    //         for(int j=1;j<=n;j++){
+    //             if(a[i]<low+j*step){
+    //                 insert(a[i],buckets.get(j-1));
+    //                 break;
+    //             }
+    //         }
+    //     }
+    //     int k=0;
+    //     for(int i=0;i<buckets.size();i++){
+    //         bucket=buckets.get(i);
+    //         for(int j=0;j<bucket.size();j++){
+                
+    //             a[k]=bucket.get(j);
+    //             k++;
+    //         }
+    //     }
+    // }
+
+    // static private void insert(int i,List<Integer> b){
+    //     if(b.size()==0){
+    //         b.add(i);
+    //         return;
+    //     }
+    //     int l=b.size();
+    //     for(int j=0;j<l;j++){
+    //         if(i<b.get(j)){
+    //             b.add(j, i);
+    //             break;
+    //         }
+    //     }
+    //     if(l==b.size()) {
+    //         b.add(i);
+    //     }
+    // }
+
+
+
+
+
+
+
+
+
 
     public void shellSort(int[] a,int step){
         //1.5min ok
