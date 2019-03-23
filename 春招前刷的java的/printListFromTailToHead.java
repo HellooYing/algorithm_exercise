@@ -1,16 +1,17 @@
 
 import java.util.*;
 
-class ListNode {
-    int val;
-    ListNode next = null;
 
-    ListNode(int val) {
-        this.val = val;
-    }
-}
 
 public class printListFromTailToHead {
+    static class ListNode {
+        int val;
+        ListNode next = null;
+
+        ListNode(int val) {
+            this.val = val;
+        }
+    }
     public static void main(String[] args) throws Exception {
         ListNode a = new ListNode(10);
         a.next = new ListNode(9);

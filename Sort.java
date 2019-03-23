@@ -8,7 +8,7 @@ public class Sort {
         //new Sort().shellSort(arr, (int)Math.floor(arr.length/3));
         //new Sort().heapSort(arr);
         //new Sort().bucketSort(arr, 10, -200, 800);
-        new Sort().radixSort(arr, 3);
+        //new Sort().radixSort(arr, 3);
         System.out.println(Arrays.toString(arr));
         System.out.println("[-345, -213, -96, -43, -9, -9, -1, 0, 0, 10, 10, 12, 28, 34, 43, 67, 123, 136, 657, 765]");
     }

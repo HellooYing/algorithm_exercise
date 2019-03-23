@@ -1,10 +1,10 @@
 import java.util.*;
 
-public class Find {
+public class Find1 {
     public static void main(String[] args) throws Exception {
         int target=1;
         int[][] array={{}};
-        System.out.println(new Find().answer(target,array));
+        System.out.println(new Find1().answer(target,array));
     }
 
     public boolean answer(int target, int [][] array){

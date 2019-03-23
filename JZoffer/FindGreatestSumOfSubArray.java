@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class FindGreatestSumOfSubArray {
     public static void main(String[] args) throws Exception {
         int[] a={6,-3,-2,7,-15,1,2,2};

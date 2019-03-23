@@ -1,13 +1,14 @@
 import java.util.*;
-class ListNode {
-    int val;
-    ListNode next = null;
 
-    ListNode(int val) {
-        this.val = val;
-    }
-}
 public class ReverseList {
+    static class ListNode {
+        int val;
+        ListNode next = null;
+
+        ListNode(int val) {
+            this.val = val;
+        }
+    }
     public static void main(String[] args) throws Exception {
         ListNode h=new ListNode(1);
         h.next=new ListNode(2);
