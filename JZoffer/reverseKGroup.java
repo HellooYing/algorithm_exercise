@@ -23,7 +23,6 @@ public class reverseKGroup {
         }
     }
     static ListNode answer(ListNode head,int k){
-
         Stack<ListNode> s=new Stack<ListNode>();
         ListNode h=head,e,start;
         for(int i=0;i<k;i++){
