@@ -1,15 +1,6 @@
 import java.util.*;
 
 public class Print {
-    static class TreeNode {
-        int val = 0;
-        TreeNode left = null;
-        TreeNode right = null;
-    
-        TreeNode(int val) {
-            this.val = val;
-        }
-    }
     static TreeNode root=new TreeNode(0);
     public static void main(String[] args) throws Exception {
         root.left=new TreeNode(1);

@@ -1,15 +1,6 @@
 import java.util.*;
 public class HasSubtree {
-    static class TreeNode {
-        int val = 0;
-        TreeNode left = null;
-        TreeNode right = null;
-
-        public TreeNode(int val) {
-            this.val = val;
-
-        }
-    }
+    //15min ok
     public static void main(String[] args) throws Exception {
         TreeNode root = new TreeNode(8);
         root.left = new TreeNode(8);
