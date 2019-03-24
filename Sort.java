@@ -9,44 +9,81 @@ public class Sort {
         //new Sort().heapSort(arr);
         //new Sort().bucketSort(arr, 10, -200, 800);
         //new Sort().radixSort(arr, 3);
+        new Sort().radixSort(arr,arr.length);
         System.out.println(Arrays.toString(arr));
         System.out.println("[-345, -213, -96, -43, -9, -9, -1, 0, 0, 10, 10, 12, 28, 34, 43, 67, 123, 136, 657, 765]");
     }
+    public int[] radixSort(int[] A, int n) {
+        //忘了清理二维list了……19min
+            int m=A[0],t,t1;
+            for(int i=1;i<n;i++){
+                if(m<A[i]) m=A[i];
+            }
+            m=String.valueOf(m).length();
+            List<List<Integer>> a=new ArrayList<List<Integer>>();
+            for(int i=0;i<19;i++){
+                a.add(new ArrayList<Integer>());
+            }
+            for(int i=1;i<=m;i++){
+                for(int j=0;j<n;j++){
+                    t=getn(A[j],i);
+                    a.get(t+9).add(A[j]);
+                }
+                t1=0;
+                for(int j=0;j<19;j++){
+                    for(int k=0;k<a.get(j).size();k++){
+                        System.out.println(a);
 
-    static public void radixSort(int[] a,int nlength){
-        //7.5min good
-        List<List<Integer>> b=new ArrayList<List<Integer>>();
-        List<Integer> c;
-        for(int i=0;i<19;i++){
-            c=new ArrayList<Integer>();
-            b.add(c);
-        }
-        for(int i=0;i<nlength;i++){
-            for(int j=0;j<19;j++){
-                c=b.get(j);
-                c.clear();
-            }
-            for(int j=0;j<a.length;j++){
-                c=b.get(getn(a[j], i+1)+9);
-                c.add(a[j]);
-            }
-            int d=0;
-            for(int j=0;j<19;j++){
-                c=b.get(j);
-                for(int k=0;k<c.size();k++){
-                    a[d]=c.get(k);
-                    d++;
+                        A[t1]=a.get(j).get(k);
+                        t1++;
+                    }
+                    a.get(j).clear();
                 }
             }
+            return A;
         }
-    }
-    static private int getn(int num,int position){
-        int a=1;
-        for(int i=1;i<position;i++) a*=10;
-        num=(int)Math.floor(num/a);
-        num=num%10;
-        return num;
-    }
+        private int getn(int i,int n){//获取数字i个位起第n位的数字
+            int a=1;
+            for(int j=0;j<n-1;j++) a*=10;
+            i=(int)Math.floor(i/a);
+            return i%10;
+        }
+
+
+//    static public void radixSort(int[] a,int nlength){
+//        //7.5min good
+//        List<List<Integer>> b=new ArrayList<List<Integer>>();
+//        List<Integer> c;
+//        for(int i=0;i<19;i++){
+//            c=new ArrayList<Integer>();
+//            b.add(c);
+//        }
+//        for(int i=0;i<nlength;i++){
+//            for(int j=0;j<19;j++){
+//                c=b.get(j);
+//                c.clear();
+//            }
+//            for(int j=0;j<a.length;j++){
+//                c=b.get(getn(a[j], i+1)+9);
+//                c.add(a[j]);
+//            }
+//            int d=0;
+//            for(int j=0;j<19;j++){
+//                c=b.get(j);
+//                for(int k=0;k<c.size();k++){
+//                    a[d]=c.get(k);
+//                    d++;
+//                }
+//            }
+//        }
+//    }
+//    static private int getn(int num,int position){
+//        int a=1;
+//        for(int i=1;i<position;i++) a*=10;
+//        num=(int)Math.floor(num/a);
+//        num=num%10;
+//        return num;
+//    }
 
 
 
