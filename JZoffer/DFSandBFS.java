@@ -15,7 +15,7 @@ public class DFSandBFS {
         System.out.println();
         DFS(root);
     }
-    static void DFS(TreeNode root){
+    public static void DFS(TreeNode root){
         Stack<TreeNode> s=new Stack<TreeNode>();
         TreeNode a;
         s.push(root);
@@ -27,7 +27,7 @@ public class DFSandBFS {
         }
     }
 
-    static void BFS(TreeNode root){
+    public static void BFS(TreeNode root){
         Queue<TreeNode> q=new LinkedList<TreeNode>();
         TreeNode a;
         q.offer(root);

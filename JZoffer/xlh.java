@@ -29,7 +29,7 @@ public class xlh {
         return r;
     }
 
-    static TreeNode Deserialize(String str){
+    public static TreeNode Deserialize(String str){
         if(str.length()==0) return null;
         String[] s=str.split("!");
         TreeNode root=new TreeNode(Integer.parseInt(s[0]));
