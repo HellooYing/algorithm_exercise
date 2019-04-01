@@ -39,11 +39,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FindPos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="90">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/juzipipei.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+              <folding>
+                <element signature="e#617#631#0" expanded="true" />
+                <element signature="e#764#778#0" expanded="true" />
+                <element signature="e#827#835#0" expanded="true" />
+                <element signature="e#1281#1295#0" expanded="true" />
+                <element signature="e#1483#1497#0" expanded="true" />
+                <element signature="e#1546#1554#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,6 +124,8 @@
         <option value="$PROJECT_DIR$/Serialize.java" />
         <option value="$PROJECT_DIR$/LongestDistance.java" />
         <option value="$PROJECT_DIR$/FindPos.java" />
+        <option value="$PROJECT_DIR$/CountNodes.java" />
+        <option value="$PROJECT_DIR$/juzipipei.java" />
       </list>
     </option>
   </component>
@@ -134,14 +153,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553692986781" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554102747910" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -169,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestDistance">
+  <component name="RunManager" selected="Application.juzipipei">
     <configuration name="FindErrorNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FindErrorNode" />
       <module name="JZoffer" />
@@ -184,15 +203,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSubtree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaxSubtree" />
+    <configuration name="Print" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Print" />
       <module name="JZoffer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Print" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Print" />
+    <configuration name="juzipipei" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juzipipei" />
       <module name="JZoffer" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -207,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.juzipipei" />
         <item itemvalue="Application.LongestDistance" />
         <item itemvalue="Application.FindErrorNode" />
         <item itemvalue="Application.xlh" />
         <item itemvalue="Application.Print" />
-        <item itemvalue="Application.MaxSubtree" />
       </list>
     </recent_temporary>
   </component>
@@ -232,12 +251,14 @@
       <workItem from="1553414720119" duration="6241000" />
       <workItem from="1553477511141" duration="17716000" />
       <workItem from="1553568503206" duration="1197000" />
-      <workItem from="1553688077277" duration="1443000" />
+      <workItem from="1553688077277" duration="1480000" />
+      <workItem from="1553694647071" duration="853000" />
+      <workItem from="1554101091235" duration="1669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53297000" />
+    <option name="totallyTimeSpent" value="55856000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -252,7 +273,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.17865804" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.18350849" />
       <window_info id="Structure" order="1" sideWeight="0.5026455" side_tool="true" weight="0.25383994" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -261,7 +282,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.08348135" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.45293072" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3285968" />
@@ -280,11 +301,25 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Debug" order="9" weight="0.26434922" />
+      <window_info anchor="right" id="Debug" order="9" weight="0.34114793" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/juzipipei.java</url>
+          <line>35</line>
+          <properties class="juzipipei" method="dg">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/HasSubtree.class" />
@@ -565,6 +600,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CountNodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deleteDuplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1553">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MaxSubtree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
@@ -588,8 +637,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FindPos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="90">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/juzipipei.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+          <folding>
+            <element signature="e#617#631#0" expanded="true" />
+            <element signature="e#764#778#0" expanded="true" />
+            <element signature="e#827#835#0" expanded="true" />
+            <element signature="e#1281#1295#0" expanded="true" />
+            <element signature="e#1483#1497#0" expanded="true" />
+            <element signature="e#1546#1554#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
