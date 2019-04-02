@@ -13,54 +13,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MaxSubtree.java">
+        <entry file="file://$PROJECT_DIR$/juzipipei.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="34" column="52" selection-start-line="27" selection-start-column="8" selection-end-line="34" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LongestDistance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Find.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FindPos.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="75">
+              <caret line="3" column="61" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/juzipipei.java">
+        <entry file="file://$PROJECT_DIR$/Exchange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
-              <folding>
-                <element signature="e#617#631#0" expanded="true" />
-                <element signature="e#764#778#0" expanded="true" />
-                <element signature="e#827#835#0" expanded="true" />
-                <element signature="e#1281#1295#0" expanded="true" />
-                <element signature="e#1483#1497#0" expanded="true" />
-                <element signature="e#1546#1554#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="250">
+              <caret line="13" column="9" lean-forward="true" selection-end-line="24" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -126,6 +91,8 @@
         <option value="$PROJECT_DIR$/FindPos.java" />
         <option value="$PROJECT_DIR$/CountNodes.java" />
         <option value="$PROJECT_DIR$/juzipipei.java" />
+        <option value="$PROJECT_DIR$/fanshe.java" />
+        <option value="$PROJECT_DIR$/Exchange.java" />
       </list>
     </option>
   </component>
@@ -142,6 +109,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,14 +122,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554102747910" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554209320893" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -188,7 +155,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.juzipipei">
+  <component name="RunManager" selected="Application.Exchange">
+    <configuration name="Exchange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exchange" />
+      <module name="JZoffer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindErrorNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FindErrorNode" />
       <module name="JZoffer" />
@@ -203,8 +177,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Print" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Print" />
+    <configuration name="fanshe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fanshe" />
       <module name="JZoffer" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -217,20 +191,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="xlh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xlh" />
-      <module name="JZoffer" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exchange" />
+        <item itemvalue="Application.fanshe" />
         <item itemvalue="Application.juzipipei" />
         <item itemvalue="Application.LongestDistance" />
         <item itemvalue="Application.FindErrorNode" />
-        <item itemvalue="Application.xlh" />
-        <item itemvalue="Application.Print" />
       </list>
     </recent_temporary>
   </component>
@@ -253,12 +220,13 @@
       <workItem from="1553568503206" duration="1197000" />
       <workItem from="1553688077277" duration="1480000" />
       <workItem from="1553694647071" duration="853000" />
-      <workItem from="1554101091235" duration="1669000" />
+      <workItem from="1554101091235" duration="2479000" />
+      <workItem from="1554208867075" duration="1040000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55856000" />
+    <option name="totallyTimeSpent" value="57706000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -273,7 +241,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.18350849" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.18674211" />
       <window_info id="Structure" order="1" sideWeight="0.5026455" side_tool="true" weight="0.25383994" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -282,14 +250,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.45293072" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.1474245" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3285968" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.44227353" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.27353463" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.27886322" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -301,7 +269,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Debug" order="9" weight="0.34114793" />
+      <window_info anchor="right" id="Debug" order="9" visible="true" weight="0.34114793" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,12 +279,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/juzipipei.java</url>
-          <line>35</line>
-          <properties class="juzipipei" method="dg">
+          <url>file://$PROJECT_DIR$/Exchange.java</url>
+          <line>6</line>
+          <properties class="Exchange" method="countWays">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -628,32 +596,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Find.java">
+    <entry file="file://$PROJECT_DIR$/FindPos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="338">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FindPos.java">
+    <entry file="file://$PROJECT_DIR$/Find.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="350">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fanshe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/juzipipei.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
-          <folding>
-            <element signature="e#617#631#0" expanded="true" />
-            <element signature="e#764#778#0" expanded="true" />
-            <element signature="e#827#835#0" expanded="true" />
-            <element signature="e#1281#1295#0" expanded="true" />
-            <element signature="e#1483#1497#0" expanded="true" />
-            <element signature="e#1546#1554#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="3" column="61" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exchange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="13" column="9" lean-forward="true" selection-end-line="24" selection-end-column="1" />
         </state>
       </provider>
     </entry>
