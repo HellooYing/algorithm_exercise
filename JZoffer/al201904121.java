@@ -7,7 +7,7 @@ import java.util.regex.*;
 public class al201904121 {
     static HashMap<Integer,Integer> fnum=new HashMap<>();
     static HashMap<Integer,Integer> ynum=new HashMap<>();
-    static String calculate(int m, int k) {
+    static void calculate(int m, int k) {
         int r1=f(m);
         List<Integer> a=new ArrayList<Integer>();
         System.out.print(r1+",");
@@ -30,7 +30,6 @@ public class al201904121 {
             }
         }
         System.out.print(r2+1);
-        return "";
     }
     static int getYear(int m){
         if(m<3){
@@ -93,6 +92,6 @@ public class al201904121 {
         String[] line = in.nextLine().split(",");
         int m = Integer.valueOf(line[0]);
         int k = Integer.valueOf(line[1]);;
-        System.out.println(calculate(m, k));
+        calculate(m, k);
     }
 }
