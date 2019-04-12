@@ -6,11 +6,11 @@ import java.util.regex.*;
 
 public class al201904121 {
     static HashMap<Integer,Integer> fnum=new HashMap<>();
-
+    static HashMap<Integer,Integer> ynum=new HashMap<>();
     static String calculate(int m, int k) {
         int r1=f(m);
         List<Integer> a=new ArrayList<Integer>();
-        System.out.println(r1+",");
+        System.out.print(r1+",");
         int r2=0;
         for (int i = 1; i <= m; i++) {
             if(fnum.get(i)==null) fnum.put(i,f(i));
@@ -18,13 +18,31 @@ public class al201904121 {
             num.reverse();
             if(insertSort(a,Integer.parseInt(num.toString()),k)) r2=i;
         }
-        System.out.print(getYear(6)+",");
+        getYear(m);
+        int[] b=new int[m+1];
+        for (int i = 0; i <= m ; i++) {
+            b[i]=ynum.get(i)+1;
+        }
+        for (int i = 1; i <b.length ; i++) {
+            if(b[i]>=m&&b[i-1]<m){
+                System.out.print(2019+i-1+",");
+                break;
+            }
+        }
         System.out.print(r2+1);
         return "";
     }
     static int getYear(int m){
-        if(m<3) return m+2;
-        else return getYear(m-1)+getYear(m-3);
+        if(m<3){
+            ynum.put(m,m+2);
+            return m+2;
+        }
+        else{
+            if(ynum.get(m-1)==null) ynum.put(m-1,getYear(m-1));
+            if(ynum.get(m-3)==null) ynum.put(m-3,getYear(m-3));
+            ynum.put(m,ynum.get(m-1)+ynum.get(m-3));
+            return ynum.get(m);
+        }
     }
     static boolean insertSort(List<Integer> a,int num,int k){
         if(a.size()<k){
