@@ -2,7 +2,9 @@ import java.util.*;
 
 public class Solution {
     public static void main(String[] args) {
-
+        TreeNode root=new TreeNode(-2);
+        root.right=new TreeNode(-3);
+        System.out.println(hasPathSum(root,-5));
     }
 //    public List<List<Integer>> levelOrderBottom(TreeNode root) {
 //        TreeNode last=root;
@@ -10,6 +12,35 @@ public class Solution {
 //        Queue<TreeNode> q=new LinkedList<TreeNode>();
 //        if(node!=null) q.offer(node);
 //    }
+static boolean flag=false;
+    static public boolean hasPathSum(TreeNode root, int sum) {
+        f(root,0,sum);
+        return flag;
+    }
+    static void f(TreeNode node,int r,int sum){
+        if(node==null) return;
+        r+=node.val;
+        if(node.left==null&&node.right==null){
+            if(r==sum) flag=true;
+            return;
+        }
+        if(node.left!=null) f(node.left,r,sum);
+        if(node.right!=null) f(node.right,r,sum);
+    }
+static public int minDepth(TreeNode root) {
+    if(root==null) return 0;
+    if(root.left==null&&root.right==null) return 1;
+    if(root.left!=null&&root.right==null) {
+        return minDepth(root.left)+1;
+    }
+    if(root.left==null&&root.right!=null) {
+        return minDepth(root.right)+1;
+    }
+    int l=minDepth(root.left);
+    int r=minDepth(root.right);
+    int m=Math.min(l,r);
+    return m+1;
+}
     public boolean isSymmetric(TreeNode root) {
         if(root==null) return true;
         if(root.left==null&&root.right!=null) return false;
