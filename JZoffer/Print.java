@@ -6,14 +6,15 @@ public class Print {
         root.left=new TreeNode(1);
         root.right=new TreeNode(2);
         root.left.left=new TreeNode(3);
-        root.left.right=new TreeNode(4);
+        //root.left.right=new TreeNode(4);
         root.right.left=new TreeNode(5);
         root.right.right=new TreeNode(6);
         root.right.left.left=new TreeNode(7);
         root.right.right.left=new TreeNode(8);
+        System.out.println(Arrays.deepToString(answer(root)));
     }
 
-    public int[][] answer(TreeNode root){
+    public static int[][] answer(TreeNode root){
         //逻辑是，建立队列，从root开始，往队列里加左节点再加右节点，
         //然后出队列一个，加它的左节点和右节点，再出队列
         //为了按行打印，设立last。
@@ -33,9 +34,7 @@ public class Print {
             if(last==nlast){
                 r.add(rr);
                 rr=new ArrayList<Integer>();
-                if(nlast.right!=null) nlast=nlast.right;
-                else if(nlast.left!=null) nlast=nlast.left;
-                else nlast=q.peekLast();
+                nlast=q.peekLast();
             }
         }
         if(rr.size()>0) r.add(rr);

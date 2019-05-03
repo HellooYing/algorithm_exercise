@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1069c8d7-680f-42a8-8399-fc374361f68a" name="Default Changelist" comment="京东笔试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/Print.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,31 +17,39 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Solution.java">
+        <entry file="file://$PROJECT_DIR$/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mt201904231.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="125">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="10" />
+              <folding>
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
+                <element signature="e#977#978#0" expanded="true" />
+                <element signature="e#1002#1003#0" expanded="true" />
+                <element signature="e#1033#1034#0" expanded="true" />
+                <element signature="e#1066#1067#0" expanded="true" />
+                <element signature="e#7996#7997#0" expanded="true" />
+                <element signature="e#8031#8032#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mt201904232.java">
+        <entry file="file://$PROJECT_DIR$/AvlTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="84" column="48" selection-start-line="84" selection-start-column="48" selection-end-line="84" selection-end-column="48" />
+            <state relative-caret-position="233">
+              <caret line="200" column="49" selection-start-line="200" selection-start-column="49" selection-end-line="200" selection-end-column="49" />
               <folding>
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#121#122#0" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#2247#2248#0" expanded="true" />
+                <element signature="e#2270#2271#0" expanded="true" />
+                <element signature="e#4734#4746#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,13 +70,20 @@
       <find>sy</find>
       <find>label</find>
       <find>queue</find>
-      <find>TreeNode</find>
       <find>last</find>
       <find>dg</find>
       <find>4</find>
       <find>//</find>
       <find>node</find>
       <find>Syst</find>
+      <find>equals</find>
+      <find>equals(</find>
+      <find>print</find>
+      <find>TreeNode</find>
+      <find>LeftOnRightSonTree</find>
+      <find>this.root</find>
+      <find>while(LeftOnRightSonTree.left.l</find>
+      <find>static</find>
     </findStrings>
     <replaceStrings>
       <replace>#!</replace>
@@ -80,6 +95,8 @@
       <replace>2</replace>
       <replace />
       <replace>Node</replace>
+      <replace>BinaryNode</replace>
+      <replace>root</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -93,15 +110,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../Sort.java" />
-        <option value="$PROJECT_DIR$/sortThreeColor.java" />
-        <option value="$PROJECT_DIR$/shortestSubsequence.java" />
         <option value="$PROJECT_DIR$/TreeToSequence.java" />
         <option value="$PROJECT_DIR$/MaxSubtree.java" />
         <option value="$PROJECT_DIR$/DFSandBFS.java" />
         <option value="$PROJECT_DIR$/xlh.java" />
         <option value="$PROJECT_DIR$/FindErrorNode.java" />
-        <option value="$PROJECT_DIR$/Print.java" />
         <option value="$PROJECT_DIR$/Serialize.java" />
         <option value="$PROJECT_DIR$/LongestDistance.java" />
         <option value="$PROJECT_DIR$/FindPos.java" />
@@ -144,13 +157,17 @@
         <option value="$PROJECT_DIR$/Solution.java" />
         <option value="$PROJECT_DIR$/mt201904231.java" />
         <option value="$PROJECT_DIR$/mt201904232.java" />
+        <option value="$PROJECT_DIR$/BinaryNode.java" />
+        <option value="$PROJECT_DIR$/Print.java" />
+        <option value="$PROJECT_DIR$/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/AvlTree.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="921" />
-    <option name="width" value="1002" />
-    <option name="height" value="1032" />
+    <option name="x" value="1278" />
+    <option name="width" value="642" />
+    <option name="height" value="1020" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -160,6 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,7 +189,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -210,9 +227,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.mt201904232">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
+  <component name="RunManager" selected="Application.AvlTree">
+    <configuration name="AvlTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AvlTree" />
+      <module name="JZoffer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearchTree" />
+      <module name="JZoffer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Print" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Print" />
       <module name="JZoffer" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -232,27 +263,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="wmsj201904151" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wmsj201904151" />
-      <module name="JZoffer" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="wmsj201904152" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wmsj201904152" />
-      <module name="JZoffer" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AvlTree" />
+        <item itemvalue="Application.Print" />
+        <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.mt201904232" />
         <item itemvalue="Application.mt201904231" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.wmsj201904152" />
-        <item itemvalue="Application.wmsj201904151" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +310,10 @@
       <workItem from="1555326299921" duration="4909000" />
       <workItem from="1555600020745" duration="241000" />
       <workItem from="1555647058644" duration="713000" />
-      <workItem from="1556017059339" duration="5836000" />
+      <workItem from="1556017059339" duration="7176000" />
+      <workItem from="1556027748978" duration="603000" />
+      <workItem from="1556840145805" duration="14730000" />
+      <workItem from="1556865062091" duration="10659000" />
     </task>
     <task id="LOCAL-00001" summary="携程笔试">
       <created>1554779416482</created>
@@ -369,7 +389,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133816000" />
+    <option name="totallyTimeSpent" value="161148000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -384,7 +404,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49360615" visible="true" weight="0.22231205" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49360615" visible="true" weight="0.23282135" />
       <window_info id="Structure" order="1" sideWeight="0.50639385" side_tool="true" weight="0.21584478" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -393,14 +413,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.3428064" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.23090586" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3285968" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.27175844" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.09413854" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.27886322" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.38365898" />
       <window_info anchor="bottom" id="GitHub Pull Requests" order="12" weight="0.3285968" />
@@ -444,41 +464,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TreeToSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SortStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="e#146#155#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DFSandBFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xlh.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FindErrorNode.java" />
     <entry file="file://$PROJECT_DIR$/CountNodes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -486,13 +471,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deleteDuplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1553">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/deleteDuplication.class" />
     <entry file="file://$PROJECT_DIR$/MaxSubtree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
@@ -664,13 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Print.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="12" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Serialize.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-235">
@@ -764,13 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/atest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -801,18 +766,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mt201904231.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="300">
           <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mt201904232.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="84" column="48" selection-start-line="84" selection-start-column="48" selection-end-line="84" selection-end-column="48" />
+        <state relative-caret-position="95">
+          <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinaryNode.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1400">
+          <caret line="165" column="11" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
           <folding>
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#6326#6327#0" expanded="true" />
+            <element signature="e#6394#6395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="539" column="12" selection-start-line="539" selection-start-column="12" selection-end-line="539" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Print.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="10" />
+          <folding>
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#7996#7997#0" expanded="true" />
+            <element signature="e#8031#8032#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AvlTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="200" column="49" selection-start-line="200" selection-start-column="49" selection-end-line="200" selection-end-column="49" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#2247#2248#0" expanded="true" />
+            <element signature="e#2270#2271#0" expanded="true" />
+            <element signature="e#4734#4746#0" expanded="true" />
           </folding>
         </state>
       </provider>
