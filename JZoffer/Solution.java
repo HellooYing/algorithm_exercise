@@ -1,10 +1,14 @@
 import java.util.*;
 
 public class Solution {
+    static int i;
     public static void main(String[] args) {
-        TreeNode root=new TreeNode(-2);
-        root.right=new TreeNode(-3);
-        System.out.println(hasPathSum(root,-5));
+        System.out.println(Solution.i);
+        new Solution().i=2;
+        System.out.println(Solution.i);
+//        TreeNode root=new TreeNode(-2);
+//        root.right=new TreeNode(-3);
+//        System.out.println(hasPathSum(root,-5));
     }
 //    public List<List<Integer>> levelOrderBottom(TreeNode root) {
 //        TreeNode last=root;

@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1069c8d7-680f-42a8-8399-fc374361f68a" name="Default Changelist" comment="京东笔试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/Print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atest.java" beforeDir="false" afterPath="$PROJECT_DIR$/atest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,39 +18,41 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BinarySearchTree.java">
+        <entry file="file://$PROJECT_DIR$/hw201905251.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="10" />
-              <folding>
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#637#638#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#977#978#0" expanded="true" />
-                <element signature="e#1002#1003#0" expanded="true" />
-                <element signature="e#1033#1034#0" expanded="true" />
-                <element signature="e#1066#1067#0" expanded="true" />
-                <element signature="e#7996#7997#0" expanded="true" />
-                <element signature="e#8031#8032#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1650">
+              <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AvlTree.java">
+        <entry file="file://$PROJECT_DIR$/hw201905252.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="200" column="49" selection-start-line="200" selection-start-column="49" selection-end-line="200" selection-end-column="49" />
+            <state relative-caret-position="165">
+              <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hw201905253.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
               <folding>
-                <element signature="e#121#122#0" expanded="true" />
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#2247#2248#0" expanded="true" />
-                <element signature="e#2270#2271#0" expanded="true" />
-                <element signature="e#4734#4746#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#142#143#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,6 +87,13 @@
       <find>this.root</find>
       <find>while(LeftOnRightSonTree.left.l</find>
       <find>static</find>
+      <find>main</find>
+      <find>inse</find>
+      <find>insert</find>
+      <find>parent</find>
+      <find>mRoot</find>
+      <find>key</find>
+      <find>find(</find>
     </findStrings>
     <replaceStrings>
       <replace>#!</replace>
@@ -96,7 +106,9 @@
       <replace />
       <replace>Node</replace>
       <replace>BinaryNode</replace>
+      <replace>father</replace>
       <replace>root</replace>
+      <replace>data</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -110,10 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TreeToSequence.java" />
-        <option value="$PROJECT_DIR$/MaxSubtree.java" />
-        <option value="$PROJECT_DIR$/DFSandBFS.java" />
-        <option value="$PROJECT_DIR$/xlh.java" />
         <option value="$PROJECT_DIR$/FindErrorNode.java" />
         <option value="$PROJECT_DIR$/Serialize.java" />
         <option value="$PROJECT_DIR$/LongestDistance.java" />
@@ -151,16 +159,20 @@
         <option value="$PROJECT_DIR$/zjtd201904144.java" />
         <option value="$PROJECT_DIR$/zjtd201904145.java" />
         <option value="$PROJECT_DIR$/zjtd201904141.java" />
-        <option value="$PROJECT_DIR$/atest.java" />
         <option value="$PROJECT_DIR$/wmsj201904152.java" />
         <option value="$PROJECT_DIR$/wmsj201904151.java" />
-        <option value="$PROJECT_DIR$/Solution.java" />
         <option value="$PROJECT_DIR$/mt201904231.java" />
         <option value="$PROJECT_DIR$/mt201904232.java" />
         <option value="$PROJECT_DIR$/BinaryNode.java" />
         <option value="$PROJECT_DIR$/Print.java" />
         <option value="$PROJECT_DIR$/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/AvlTree.java" />
+        <option value="$PROJECT_DIR$/RBTree.java" />
+        <option value="$PROJECT_DIR$/Solution.java" />
+        <option value="$PROJECT_DIR$/hw201905251.java" />
+        <option value="$PROJECT_DIR$/hw201905253.java" />
+        <option value="$PROJECT_DIR$/atest.java" />
+        <option value="$PROJECT_DIR$/hw201905252.java" />
       </list>
     </option>
   </component>
@@ -227,37 +239,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AvlTree">
-    <configuration name="AvlTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AvlTree" />
+  <component name="RunManager" selected="Application.hw201905252">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="JZoffer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearchTree" />
+    <configuration name="atest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="atest" />
       <module name="JZoffer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Print" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Print" />
+    <configuration name="hw201905251" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw201905251" />
       <module name="JZoffer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mt201904231" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mt201904231" />
+    <configuration name="hw201905252" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw201905252" />
       <module name="JZoffer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mt201904232" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mt201904232" />
+    <configuration name="hw201905253" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw201905253" />
       <module name="JZoffer" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -265,11 +277,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AvlTree" />
-        <item itemvalue="Application.Print" />
-        <item itemvalue="Application.BinarySearchTree" />
-        <item itemvalue="Application.mt201904232" />
-        <item itemvalue="Application.mt201904231" />
+        <item itemvalue="Application.hw201905252" />
+        <item itemvalue="Application.atest" />
+        <item itemvalue="Application.hw201905253" />
+        <item itemvalue="Application.hw201905251" />
+        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +325,10 @@
       <workItem from="1556017059339" duration="7176000" />
       <workItem from="1556027748978" duration="603000" />
       <workItem from="1556840145805" duration="14730000" />
-      <workItem from="1556865062091" duration="10659000" />
+      <workItem from="1556865062091" duration="15569000" />
+      <workItem from="1557023995951" duration="10195000" />
+      <workItem from="1557194201809" duration="32000" />
+      <workItem from="1558781765182" duration="5130000" />
     </task>
     <task id="LOCAL-00001" summary="携程笔试">
       <created>1554779416482</created>
@@ -389,7 +404,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161148000" />
+    <option name="totallyTimeSpent" value="181415000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,7 +419,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49360615" visible="true" weight="0.23282135" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49360615" visible="true" weight="0.18997575" />
       <window_info id="Structure" order="1" sideWeight="0.50639385" side_tool="true" weight="0.21584478" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -413,15 +428,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.23090586" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4987874" visible="true" weight="0.26465365" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3285968" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.09413854" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.27886322" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5012126" side_tool="true" weight="0.27531084" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.27531084" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.38365898" />
       <window_info anchor="bottom" id="GitHub Pull Requests" order="12" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -433,7 +448,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Debug" order="9" weight="0.33063865" />
+      <window_info anchor="right" id="Debug" order="9" visible="true" weight="0.33063865" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,39 +468,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Solution.java</url>
-          <line>133</line>
-          <properties class="Solution" method="mySqrt">
+          <url>file://$PROJECT_DIR$/hw201905252.java</url>
+          <line>34</line>
+          <properties class="hw201905252" method="findMax">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CountNodes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deleteDuplication.class" />
-    <entry file="file://$PROJECT_DIR$/MaxSubtree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="34" column="52" selection-start-line="27" selection-start-column="8" selection-end-line="34" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LongestDistance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FindPos.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -683,17 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jd20190413.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="24" column="27" selection-start-line="23" selection-start-column="8" selection-end-line="24" selection-end-column="27" />
-          <folding>
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zjtd201904142.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -733,16 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="5" selection-start-line="3" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -804,17 +776,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Solution.java">
+    <entry file="file://$PROJECT_DIR$/RBTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="2288">
+          <caret line="393" column="25" lean-forward="true" selection-start-line="393" selection-start-column="25" selection-end-line="393" selection-end-column="25" />
+          <folding>
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#1166#1167#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#12066#12067#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="5200">
+          <caret line="222" column="5" selection-start-line="212" selection-start-column="4" selection-end-line="222" selection-end-column="5" />
           <folding>
             <element signature="e#502#503#0" expanded="true" />
             <element signature="e#527#528#0" expanded="true" />
@@ -826,23 +805,69 @@
             <element signature="e#1002#1003#0" expanded="true" />
             <element signature="e#1033#1034#0" expanded="true" />
             <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="e#7996#7997#0" expanded="true" />
-            <element signature="e#8031#8032#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AvlTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="200" column="49" selection-start-line="200" selection-start-column="49" selection-end-line="200" selection-end-column="49" />
+        <state relative-caret-position="1350">
+          <caret line="56" selection-start-line="56" selection-end-line="84" selection-end-column="5" />
           <folding>
             <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#2247#2248#0" expanded="true" />
-            <element signature="e#2270#2271#0" expanded="true" />
-            <element signature="e#4734#4746#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd20190413.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="24" column="27" selection-start-line="23" selection-start-column="8" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw201905251.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw201905253.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw201905252.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
         </state>
       </provider>
     </entry>
