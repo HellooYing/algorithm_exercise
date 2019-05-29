@@ -7,7 +7,7 @@ public class MT20190528 {
         Scanner in=new Scanner(System.in);
         String s=in.nextLine();
         in.close();
-        System.out.println(new Main().getBusinessHour(s));
+        System.out.println(new MT20190528().getBusinessHour(s));
     }
     public String getBusinessHour(String str){
         if(str.equals("111111111111111111111111111111111111111111111111")){
