@@ -4,6 +4,9 @@
     <list default="true" id="1069c8d7-680f-42a8-8399-fc374361f68a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/CoinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/Print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +41,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555337734572" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -69,37 +72,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CoinChange">
-    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CoinChange" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="CountSubstrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountSubstrings" />
       <module name="JZoffer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaxProduct" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="JZoffer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximalSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaximalSquare" />
+    <configuration name="Print" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Print" />
       <module name="JZoffer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumSquares" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="JZoffer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WordBreak" />
+    <configuration name="yfd2019091601" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yfd2019091601" />
       <module name="JZoffer" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CoinChange" />
-        <item itemvalue="Application.NumSquares" />
-        <item itemvalue="Application.MaximalSquare" />
-        <item itemvalue="Application.MaxProduct" />
-        <item itemvalue="Application.WordBreak" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Print" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.yfd2019091601" />
+        <item itemvalue="Application.CountSubstrings" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +172,7 @@
       <workItem from="1568510432905" duration="3841000" />
       <workItem from="1568540010548" duration="13651000" />
       <workItem from="1568596230948" duration="4304000" />
-      <workItem from="1568602251963" duration="4721000" />
+      <workItem from="1568602251963" duration="19837000" />
     </task>
     <task id="LOCAL-00001" summary="携程笔试">
       <created>1554779416482</created>

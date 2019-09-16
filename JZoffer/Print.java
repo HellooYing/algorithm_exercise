@@ -12,6 +12,24 @@ public class Print {
         root.right.left.left=new TreeNode(7);
         root.right.right.left=new TreeNode(8);
         System.out.println(Arrays.deepToString(answer(root)));
+        int[][] a=answer(root);
+        int maxLevel=0;
+        double maxValue=avl(a[0]);
+        for (int i = 1; i < a.length; i++) {
+            double v=avl(a[i]);
+            if(maxValue<v){
+                maxLevel=i;
+                maxValue=v;
+            }
+        }
+
+    }
+    public static double avl(int[] a){
+        double r=0;
+        for (int i = 0; i <a.length ; i++) {
+            r+=a[i];
+        }
+        return r/a.length;
     }
 
     public static int[][] answer(TreeNode root){
