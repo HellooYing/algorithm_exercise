@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1069c8d7-680f-42a8-8399-fc374361f68a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CutRope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DistinctSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exchange2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoUpstairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeftMostAppearance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LongestIncreasingSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinimumPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StackReverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StackSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TreePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maxGap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exchange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atest.java" beforeDir="false" afterPath="$PROJECT_DIR$/atest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,37 +69,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CutRope">
-    <configuration name="Backpack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Backpack" />
+  <component name="RunManager" selected="Application.CoinChange">
+    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CoinChange" />
       <module name="JZoffer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CutRope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CutRope" />
+    <configuration name="MaxProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxProduct" />
       <module name="JZoffer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoUpstairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GoUpstairs" />
+    <configuration name="MaximalSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaximalSquare" />
       <module name="JZoffer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LCS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LCS" />
+    <configuration name="NumSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumSquares" />
       <module name="JZoffer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LongestIncreasingSubsequence" />
+    <configuration name="WordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WordBreak" />
       <module name="JZoffer" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CutRope" />
-        <item itemvalue="Application.Backpack" />
-        <item itemvalue="Application.LCS" />
-        <item itemvalue="Application.LongestIncreasingSubsequence" />
-        <item itemvalue="Application.GoUpstairs" />
+        <item itemvalue="Application.CoinChange" />
+        <item itemvalue="Application.NumSquares" />
+        <item itemvalue="Application.MaximalSquare" />
+        <item itemvalue="Application.MaxProduct" />
+        <item itemvalue="Application.WordBreak" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +168,8 @@
       <workItem from="1568427135431" duration="16647000" />
       <workItem from="1568510432905" duration="3841000" />
       <workItem from="1568540010548" duration="13651000" />
+      <workItem from="1568596230948" duration="4304000" />
+      <workItem from="1568602251963" duration="4721000" />
     </task>
     <task id="LOCAL-00001" summary="携程笔试">
       <created>1554779416482</created>
