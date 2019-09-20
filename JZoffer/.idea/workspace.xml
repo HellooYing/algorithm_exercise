@@ -4,8 +4,7 @@
     <list default="true" id="1069c8d7-680f-42a8-8399-fc374361f68a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/CoinChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/Print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,9 +40,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555337734572" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="D:/old/toutiao" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -172,7 +172,11 @@
       <workItem from="1568510432905" duration="3841000" />
       <workItem from="1568540010548" duration="13651000" />
       <workItem from="1568596230948" duration="4304000" />
-      <workItem from="1568602251963" duration="19837000" />
+      <workItem from="1568602251963" duration="19900000" />
+      <workItem from="1568683944177" duration="1294000" />
+      <workItem from="1568793773921" duration="9355000" />
+      <workItem from="1568872059510" duration="4139000" />
+      <workItem from="1568959939573" duration="8499000" />
     </task>
     <task id="LOCAL-00001" summary="携程笔试">
       <created>1554779416482</created>
